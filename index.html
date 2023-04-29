@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BittrexFx</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<script type="text/javascript" src="java/sweetalert-dev.js"></script>
+	<script type="text/javascript" src="java/sweetalert-dev.js"></script>
+	<script type="text/javascript" src="java/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<!-------------------head------------------>
+<script type="text/javascript">
+			head="id=head";
+					$.ajax({
+				url:"head.php",
+                 type:"GET",
+                 data:head,
+                 contentType:false,
+                 cache:false,
+                 crossDomain:true,
+                 processData:false,
+                 beforeSend:function(data){
+                  //$('.welcome').html('<div class="ajaxload"><img src="img/ajax.gif"></div>');
+                 },
+                 success:function(data){
+
+                 	$('.welcome').show();
+                 	$('.welcome').html(data);
+                 },
+                 error:function(){
+                 	//alert('error typing to processData');
+                 }
+
+					})
+		
+		
+
+	</script>
+	<div class="welcome"></div>
+
+
+<!----------new-------------->
+<section class="new">
+<div class="tp">
+	<h4>Want to Invest in Cryptocurrency?</h4>
+	<h1>Join BitterFx</h1>
+	<p>A leading investor and trusted partner for alternative assets. We create sustainable value for our clients and society. We are one of the BitterFx asset managers for alternative equity investments and are part of Stock Crypto Markets.</p>
+	<a href="signup.php" class="lis">GET START FOR FREE</a>
+</div>	
+
+	
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="tradingview-widget-container" style="width: 100%; height: 106px;">
+  <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22title%22%3A%22S%26P%20500%22%7D%2C%7B%22proName%22%3A%22FOREXCOM%3ANSXUSD%22%2C%22title%22%3A%22Nasdaq%20100%22%7D%2C%7B%22proName%22%3A%22FX_IDC%3AEURUSD%22%2C%22title%22%3A%22EUR%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22BTC%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22ETH%2FUSD%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A78%2C%22utm_source%22%3A%22www.alpha.blockmarketfx.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22www.alpha.blockmarketfx.com%2F%22%7D" style="box-sizing: border-box; height: 74px; width: 100%;"></iframe>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a> </div>
+  
+<style>
+	.tradingview-widget-copyright {
+		font-size: 13px !important;
+		line-height: 32px !important;
+		text-align: center !important;
+		vertical-align: middle !important;
+		/* @mixin sf-pro-display-font; */
+		font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright .blue-text {
+		color: #2962FF !important;
+	}
+
+	.tradingview-widget-copyright a {
+		text-decoration: none !important;
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright a:visited {
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright a:hover .blue-text {
+		color: #1E53E5 !important;
+	}
+
+	.tradingview-widget-copyright a:active .blue-text {
+		color: #1848CC !important;
+	}
+
+	.tradingview-widget-copyright a:visited .blue-text {
+		color: #2962FF !important;
+	}
+	</style></div>
+
+	<!-----------------------body--------------->
+	<main class="myhome_main">
+		<h1 class="hm">Markets Deals</h1>
+		<!---------------------------text and image------------------------->
+		<div class="sl">
+		<section class="row_1">
+			<div class="silde">
+				<div class="silde_div_small" style="background: #0B1620;">
+					<h3>cypto trading</h3>
+					<img src="img/market_basket_indices.webp">
+				</div>
+
+				<div class="silde_div_small" style="background: #271A03;">
+					<h3>Safe And Secure</h3>
+					<img src="img/market_commodities.webp">
+				</div>
+
+
+				<div class="silde_div_small"  style="background:#501619;">
+					<h3>Multiple Trades</h3>
+					<img src="img/market_crypto.webp">
+				</div>
+
+
+				<div class="silde_div_small"  style="background: #132738;">
+					<h3>Investment Plan</h3>
+					<img src="img/market_forex.webp">
+				</div>
+
+				<div class="silde_div_small"  style="background:#271A03;">
+					<h3>Covered by Insurance</h3>
+					<img src="img/market_stocks_indices.webp">
+				</div>
+
+				<div class="silde_div_small"  style="background: #501619;">
+					<h3>cypto trading</h3>
+					<img src="img/market_synthetic_indices.webp">
+				</div>
+				
+				
+
+				
+			</div>
+			
+		</section>
+</div>
+<script type="text/javascript">
+	x=0;
+	function slidi() {
+	x--;
+	if (x==-4) {x=-0}
+	document.getElementsByClassName('silde')[0].style.left=x*33+"%";
+		
+	}
+	setInterval(slidi,3000);
+</script>
+<!--------------type--------------------->
+<h1 class="tyh1">Trade types<p>Trade the way you want with 3 flexible trade types.</p></h1>
+<!-------------------------->
+<section class="typetrader">
+	<div class="smatyp">
+		<img src="img/trade_type_cfds.webp">
+		<h2>CFDS</h2>
+	</div>
+
+
+	<div class="smatyp">
+		<img src="img/trade_type_multipliers.webp">
+		<h2>Multipliers</h2>
+	</div>
+
+
+	<div class="smatyp">
+		<img src="img/trade_type_digitaloptions.webp">
+		<h2>Option</h2>
+	</div>
+
+
+
+</section>
+
+	<!-------------------end of sild------->
+
+	<!----------------plan------------------->
+<h1 class="hm">Choose Your Plan</h1>
+<div class="plan" id='iv'> 
+
+<div class="plan_small">
+	<p class="title_plan">GOLD PACKAGE</p>
+	<h1 class="plan_amount">$10,0000<span>minimum</span></h1>
+
+	<div class="plan_colum">
+		<div class="plan_c">
+			<span>Min Deposit</span>
+			<p>$10,000</p>
+		</div>
+
+		<div class="plan_c">
+			<span>Max Deposit</span>
+			<p>$29,999</p>
+		</div>
+
+
+		<div class="plan_c">
+			<span>SHORT & LONG TERM</span>
+			
+		</div>
+
+
+		<div class="plan_c">
+			<span>Base currency</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>7% Referal Commission</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>23% ROI</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>After 48 Hours(s)</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>Referral Bonus</span>
+			<i class="fa fa-check"></i>
+		</div>
+       
+
+       <div class="plan_c">
+			<span>Hedging Allowed</span>
+			<i class="fa fa-check"></i>
+		</div>
+		<a href="">SIgnup</a>
+		<a href="">Login</a>
+
+	</div>
+
+
+</div>
+
+<!--------------------->
+<div class="plan_small">
+	<p class="title_plan">PREMIUM PACKAGE</p>
+	<h1 class="plan_amount">$30,0000<span>minimum</span></h1>
+
+	<div class="plan_colum">
+		<div class="plan_c">
+			<span>Min Deposit</span>
+			<p>$30,000</p>
+		</div>
+
+		<div class="plan_c">
+			<span>Max Deposit</span>
+			<p>$114,999</p>
+		</div>
+
+
+		<div class="plan_c">
+			<span>LONG TERM</span>
+			
+		</div>
+
+
+		<div class="plan_c">
+			<span>Base currency</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>7% Referal Commission</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>10% ROI</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>After 5 Hours(s)</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>Referral Bonus</span>
+			<i class="fa fa-check"></i>
+		</div>
+       
+
+       <div class="plan_c">
+			<span>Hedging Allowed</span>
+			<i class="fa fa-check"></i>
+		</div>
+		<a href="">SIgnup</a>
+		<a href="">Login</a>
+
+	</div>
+
+
+</div>
+
+<!---------------------->
+
+<div class="plan_small">
+	<p class="title_plan">CONTRACT PACKAGE</p>
+	<h1 class="plan_amount">$115,0000<span>minimum</span></h1>
+
+	<div class="plan_colum">
+		<div class="plan_c">
+			<span>Min Deposit</span>
+			<p>$115,000</p>
+		</div>
+
+		<div class="plan_c">
+			<span>Max Deposit</span>
+			<p>Unlimited</p>
+		</div>
+
+
+		<div class="plan_c">
+			<span>LONG TERM</span>
+			
+		</div>
+
+
+		<div class="plan_c">
+			<span>Base currency</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>7% Referal Commission</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>12% ROI</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>After 5 Hours(s)</span>
+			<i class="fa fa-check"></i>
+		</div>
+
+		<div class="plan_c">
+			<span>Referral Bonus</span>
+			<i class="fa fa-check"></i>
+		</div>
+       
+
+       <div class="plan_c">
+			<span>Hedging Allowed</span>
+			<i class="fa fa-check"></i>
+		</div>
+		<a href="">SIgnup</a>
+		<a href="">Login</a>
+
+	</div>
+
+
+</div>
+
+
+
+
+
+
+	</div>
+
+
+
+<!-------------------end---->
+
+
+
+
+
+<div class="tradingview-widget-container" style="width: 100%; height: 660px;">
+      <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/market-overview/?locale=en#%7B%22colorTheme%22%3A%22light%22%2C%22dateRange%22%3A%221D%22%2C%22showChart%22%3Atrue%2C%22largeChartUrl%22%3A%22https%3A%2F%2Fwww.tradingview.com%2Fchart%2Fcloned%22%2C%22isTransparent%22%3Afalse%2C%22showSymbolLogo%22%3Atrue%2C%22showFloatingTooltip%22%3Afalse%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22660%22%2C%22plotLineColorGrowing%22%3A%22rgba(41%2C%2098%2C%20255%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(41%2C%2098%2C%20255%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(240%2C%20243%2C%20250%2C%200)%22%2C%22scaleFontColor%22%3A%22rgba(120%2C%20123%2C%20134%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(41%2C%2098%2C%20255%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(41%2C%2098%2C%20255%2C%200.12)%22%2C%22belowLineFillColorGrowingBottom%22%3A%22rgba(41%2C%2098%2C%20255%2C%200)%22%2C%22belowLineFillColorFallingBottom%22%3A%22rgba(41%2C%2098%2C%20255%2C%200)%22%2C%22symbolActiveColor%22%3A%22rgba(41%2C%2098%2C%20255%2C%200.12)%22%2C%22tabs%22%3A%5B%7B%22title%22%3A%22Indices%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22d%22%3A%22S%26P%20500%22%7D%2C%7B%22s%22%3A%22FOREXCOM%3ANSXUSD%22%2C%22d%22%3A%22US%20100%22%7D%2C%7B%22s%22%3A%22FOREXCOM%3ADJI%22%2C%22d%22%3A%22Dow%2030%22%7D%2C%7B%22s%22%3A%22INDEX%3ANKY%22%2C%22d%22%3A%22Nikkei%20225%22%7D%2C%7B%22s%22%3A%22INDEX%3ADEU40%22%2C%22d%22%3A%22DAX%20Index%22%7D%2C%7B%22s%22%3A%22FOREXCOM%3AUKXGBP%22%2C%22d%22%3A%22UK%20100%22%7D%5D%2C%22originalTitle%22%3A%22Indices%22%7D%2C%7B%22title%22%3A%22Futures%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22CME_MINI%3AES1!%22%2C%22d%22%3A%22S%26P%20500%22%7D%2C%7B%22s%22%3A%22CME%3A6E1!%22%2C%22d%22%3A%22Euro%22%7D%2C%7B%22s%22%3A%22COMEX%3AGC1!%22%2C%22d%22%3A%22Gold%22%7D%2C%7B%22s%22%3A%22NYMEX%3ACL1!%22%2C%22d%22%3A%22Crude%20Oil%22%7D%2C%7B%22s%22%3A%22NYMEX%3ANG1!%22%2C%22d%22%3A%22Natural%20Gas%22%7D%2C%7B%22s%22%3A%22CBOT%3AZC1!%22%2C%22d%22%3A%22Corn%22%7D%5D%2C%22originalTitle%22%3A%22Futures%22%7D%2C%7B%22title%22%3A%22Bonds%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22CME%3AGE1!%22%2C%22d%22%3A%22Eurodollar%22%7D%2C%7B%22s%22%3A%22CBOT%3AZB1!%22%2C%22d%22%3A%22T-Bond%22%7D%2C%7B%22s%22%3A%22CBOT%3AUB1!%22%2C%22d%22%3A%22Ultra%20T-Bond%22%7D%2C%7B%22s%22%3A%22EUREX%3AFGBL1!%22%2C%22d%22%3A%22Euro%20Bund%22%7D%2C%7B%22s%22%3A%22EUREX%3AFBTP1!%22%2C%22d%22%3A%22Euro%20BTP%22%7D%2C%7B%22s%22%3A%22EUREX%3AFGBM1!%22%2C%22d%22%3A%22Euro%20BOBL%22%7D%5D%2C%22originalTitle%22%3A%22Bonds%22%7D%2C%7B%22title%22%3A%22Forex%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22FX%3AEURUSD%22%7D%2C%7B%22s%22%3A%22FX%3AGBPUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDJPY%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCHF%22%7D%2C%7B%22s%22%3A%22FX%3AAUDUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCAD%22%7D%5D%2C%22originalTitle%22%3A%22Forex%22%7D%2C%7B%22title%22%3A%22Crypto%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22COINBASE%3ABTCUSD%22%7D%2C%7B%22s%22%3A%22COINBASE%3AETHUSD%22%7D%2C%7B%22s%22%3A%22COINBASE%3ASHIBUSD%22%7D%2C%7B%22s%22%3A%22COINBASE%3ALTCUSD%22%7D%2C%7B%22s%22%3A%22COINBASE%3AETHBTC%22%7D%5D%7D%5D%2C%22utm_source%22%3A%22www.fxexpress-markets.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-overview%22%2C%22page-uri%22%3A%22www.fxexpress-markets.com%2F%22%7D" style="box-sizing: border-box; height: calc(628px); width: 100%;"></iframe>
+      <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Chart</span></a> by TradingView</div>
+      
+    <style>
+	.tradingview-widget-copyright {
+		font-size: 13px !important;
+		line-height: 32px !important;
+		text-align: center !important;
+		vertical-align: middle !important;
+		/* @mixin sf-pro-display-font; */
+		font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright .blue-text {
+		color: #2962FF !important;
+	}
+
+	.tradingview-widget-copyright a {
+		text-decoration: none !important;
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright a:visited {
+		color: #9db2bd !important;
+	}
+
+	.tradingview-widget-copyright a:hover .blue-text {
+		color: #1E53E5 !important;
+	}
+
+	.tradingview-widget-copyright a:active .blue-text {
+		color: #1848CC !important;
+	}
+
+	.tradingview-widget-copyright a:visited .blue-text {
+		color: #2962FF !important;
+	}
+	</style></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!----------------start of testimonry--->
+	<p class="hm">What people say!</p>
+	<div class="testimorny">
+<div class="ttp">
+	<div class="small_t_div">
+		<div class="quot_image"><img src="img/quot.png"></div>
+	<p>BittrexFx is of special importance to us as we believe that sustainable investments will foster investment success and add value to our society. What caught my attention about this platform was the resources available. The video tutorials were especially helpful.
+</p>
+<h3>Dominic Mathew</h3>
+		
+	</div>
+
+
+<div class="small_t_div">
+		<div class="quot_image"><img src="img/quot.png"></div>
+<p>BittrexFx plans generates very solid returns. It has a very long investment horizon, which fits well with a long-term investment liabilities.Contacting support was simple and easy. I was surprised by how quickly they actually get back to you.
+</p>
+<h3>Ashish Khatri</h3>
+		
+	</div>
+
+	<div class="small_t_div">
+		<div class="quot_image"><img src="img/quot.png"></div>
+<p>BittrexFx continues to offer significant opportunities for my business.I enjoy talking to other investors. It’s always interesting to see what others have to say about the market and share ideas.
+</p>
+<h3>Matt Johnson</h3>
+		
+	</div>
+
+	<div class="small_t_div">
+		<div class="quot_image"><img src="img/quot.png"></div>
+<p>BittrexFx This is so good to be true my friend referred me to this platform and there have been putting my money into good use.I’ve learned a lot about the financial markets while working with this company. Now I can invest and earn money.
+</p>
+<h3>Amanda Ricci</h3>
+		
+	</div>
+
+</div>	
+</div>
+
+	
+		</main>
+<div class="foot"></div>
+	<script type="text/javascript">
+			footer="id=footer";
+					$.ajax({
+				url:"footer.php",
+                 type:"GET",
+                 data:head,
+                 contentType:false,
+                 cache:false,
+                 crossDomain:true,
+                 processData:false,
+                 beforeSend:function(data){
+                  //$('.welcome').html('<div class="ajaxload"><img src="img/ajax.gif"></div>');
+                 },
+                 success:function(data){
+
+                 	$('.foot').show();
+                 	$('.foot').html(data);
+                 },
+                 error:function(){
+                 	//alert('error typing to processData');
+                 }
+
+					})
+		
+		
+
+	</script>
+
+</body>
+</html>

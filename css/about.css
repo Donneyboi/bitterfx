@@ -1,0 +1,221 @@
+.about_image{
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/2023_01_01_01_19_IMG_0166.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+.about_tp{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+
+
+	
+	
+}
+
+.about_tp>h1{
+	font-weight: bold;
+	font-size: 70px;
+	color: #041B3B;
+	padding: 30px;
+	
+}
+.about_tille{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 40px;
+	flex-direction: column;
+
+}
+.about_tille>p{
+	width: 95%;
+font-weight: lighter;
+font-size: 20px;
+word-break: break-all;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.about_con{
+	width: 100%;
+	height: 500px;
+	display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.about_con>img{
+	width: 50%;
+	height: 350px;
+	
+}
+.about_talk{
+	width: 50%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.about_talk>p{
+	width: 80%;
+	height: auto;
+	font-size: 18px;
+
+}
+.about_talk>h3{
+	width: 80%;
+	height: auto;
+	font-size: 25px;
+
+
+}
+.about_div_div{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+display: flex;
+align-items: center;
+
+}
+.about_div_div>img{
+	width: 40%;
+	height: 500px;
+	object-fit: contain;
+
+}
+.small_about_ss{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	word-break: break-all;
+}
+.small_about_ss>p{
+	width: 95%;
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 900px){
+.about_div_div{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.about_div_div>img{
+	width: 90%;
+	height: 500px;
+	object-fit: contain;
+
+}
+.small_about_ss{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	word-break: break-all;
+}
+.small_about_ss>p{
+	width: 95%;
+}
+.small_about_ss>img{
+	width: 90%;
+}
+.about_tp>h1{
+	font-weight: bold;
+	font-size: 50px;
+	color: black;
+	padding: 0px;
+	
+}
+.about_tp{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about_tille{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 40px;
+	flex-direction: column;
+
+}
+.about_tille>p{
+	width: 85%;
+	text-align: center;
+font-weight: lighter;
+font-size: 20px;
+word-break: break-all;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.about_con{
+	width: 100%;
+	height: auto;
+	display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+}
+.about_con>img{
+	width: 90%;
+	height: 350px;
+	
+}
+.about_talk{
+	width: 90%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.about_talk>p{
+	width: 80%;
+	height: auto;
+	font-size: 18px;
+
+}
+.about_talk>h3{
+	width: 80%;
+	height: auto;
+	font-size: 25px;
+
+
+}
+
+
+
+
+}

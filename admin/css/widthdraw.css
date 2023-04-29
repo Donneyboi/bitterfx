@@ -1,0 +1,108 @@
+.widthdraw>h3{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+.mytabel{
+	width: 100%;
+	height: auto;
+}
+.row{
+	width: 100%;
+	height: auto;
+	display: flex;
+
+}
+.prof{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.prof>input{
+	margin-top: 10px;
+	border: 1px solid gray;
+	outline: none;
+	border-radius: 5px;
+	width: 80%;
+	height: 40px;
+}
+
+.row>span{
+	width: 20%;
+	height:auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+		margin-top: 10px;
+}
+.row span>button{
+	width: 40%;
+	height:40px;
+	outline: none;
+	border: none;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	font-family: sans-serif;
+
+	
+}
+.row span>p{
+display: none;
+}
+
+@media only screen and (max-width: 900px){
+.widthdraw>h3{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+.mytabel{
+	width: 100%;
+	height: auto;
+
+}
+.row{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.q{
+	display: none;
+}
+
+.row>span{
+	width: 95%;
+	height:auto;
+	align-items: center;
+	display: flex;
+	justify-content: flex-start;
+	 border-left: 1px solid white;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.row span>p{
+margin-right: 7px;
+display: flex;
+font-size: 20px;
+}
+.row span>button{
+	width: 40%;
+	height:40px;
+	outline: none;
+	border: none;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	font-family: sans-serif;
+
+	
+}	
+}

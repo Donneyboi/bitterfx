@@ -1,0 +1,165 @@
+.design{
+	width: 35%;
+	box-shadow: 0px 0px 2px gray;
+	height: 500px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	flex-direction: column;
+}
+.design>span{
+	width: 90%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: blue;
+}
+.design>label{
+	width: 90%;
+	font-family: sans-serif;
+	
+	height: 20px;
+	color: gray;
+}
+.design>input{
+	width: 90%;
+	height: 40px;
+	outline: none;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+
+}
+::placeholder{
+	padding: 10px;
+}
+#upbt{
+	width: 60%;
+	background-color: blue;
+	color: white;
+	border-radius: 2em;
+	border: none;
+}
+
+.design>img{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin-top: 20px;
+	border: 1px solid blue;
+	
+}
+.acoount{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.e{
+	width: 70% !important;
+	display: flex;
+	justify-content: flex-end;
+	color: blue !important;
+	height: 150px !important;
+
+}
+
+.pass{
+	height: auto !important;
+	margin-left: 30px;
+}
+.acoount{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+	.acoount{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.design{
+		margin-top: 15px;
+	width: 90%;
+	box-shadow: 0px 0px 2px gray;
+	height: auto;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	flex-direction: column;
+}
+.design>span{
+	width: 90%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: blue;
+}
+.design>label{
+	width: 90%;
+	font-family: sans-serif;
+	
+	height: 20px;
+	color: gray;
+}
+.design>input{
+	width: 90%;
+	height: 40px;
+	outline: none;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+
+}
+::placeholder{
+	padding: 10px;
+}
+#upbt{
+	width: 60%;
+	background-color: blue;
+	color: white;
+	border-radius: 2em;
+	border: none;
+}
+
+.design>img{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin-top: 20px;
+	border: 1px solid blue;
+	
+}
+.acoount{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.e{
+	width: 70% !important;
+	display: flex;
+	justify-content: flex-end;
+	color: blue !important;
+	height: 150px !important;
+
+}
+
+.pass{
+	height: auto !important;
+	margin-left: 30px;
+}
+.acoount{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+}

@@ -1,0 +1,136 @@
+.team{
+	padding: 70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.subtiittle{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: skyblue;
+
+}
+.til{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.small_team_div{
+	margin-left: 40px;
+	margin-top: 13px;
+	width: 20%;
+	height: 350px;
+	background-color: #F2F1F8;
+	border-radius: 8px;
+}
+
+.team_image{
+	width: 100%;
+	height: 250px;
+	background-image: url('../img/team-2.jpg');
+	background-size: cover;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.small_team_div>h3{
+	width: 100%;
+	height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.link{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.link>a{
+	text-decoration: none;
+	width: 20%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+
+/*mobile*/
+@media only screen and (max-width: 900px){
+.team{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0px;
+}
+.subtiittle{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: skyblue;
+
+}
+.til{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.small_team_div{
+	
+	margin: 0px;
+	margin-top: 13px;
+	width: 90%;
+	height: 350px;
+	background-color: #F2F1F8;
+	border-radius: 8px;
+}
+
+.team_image{
+	width: 100%;
+	height: 250px;
+	background-image: url('../img/team-2.jpg');
+	background-size: cover;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.small_team_div>h3{
+	width: 100%;
+	height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.link{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.link>a{
+	text-decoration: none;
+	width: 20%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}	
+}
